@@ -1,0 +1,69 @@
+Activity: "Responsive Travel Guide with Live Location & Offline Access"
+
+Time: 60 Minutes
+
+Objective:
+
+Build a responsive travel guide website that allows users to explore tourist destinations, view an interactive map, and access stored travel recommendations even when offline. The project should demonstrate the participants' ability to use Flexbox, Media Queries, Geolocation API, Web Storage, and Google Maps API effectively.
+
+Activity Overview:
+
+Participants will create a "Travel Guide" website where users can:
+
+View travel recommendations in a well-structured, responsive layout.
+
+See their current location on a Google Map using the Geolocation API.
+
+Retrieve and store user preferences using Web Storage (LocalStorage).
+
+Ensure offline availability for the travel guide using the Cache API.
+
+Project Requirements:
+
+1. Responsive UI Design (Flexbox & Media Queries)
+
+The website should have a flexible layout that adapts to different screen sizes (desktop, tablet, mobile).
+
+Use Flexbox to structure sections like the navbar, content area, and footer.
+
+Implement Media Queries to adjust styles based on the screen width.
+
+
+2. Location-Based Features (Geolocation API)
+
+Use Modernizr to check if the user's browser supports Geolocation.
+
+If supported, retrieve the latitude and longitude of the user.
+
+Display the user's location on a Google Map.
+
+Provide a button to refresh the location in real-time.
+
+Explain privacy concerns and request user permission before accessing location data.
+
+
+3. Google Maps Integration
+
+Load the Google Maps API dynamically.
+
+Mark the user’s current location with a pin/marker.
+
+Allow users to search for popular places near them (restaurants, attractions).
+
+
+4. Web Storage (Offline Access & Preferences)
+
+Save user preferences (favorite destinations, last viewed locations) in LocalStorage.
+
+Display previously saved locations when the user revisits the site.
+
+
+5. Offline Web App Support (Cache API)
+
+Implement offline support using the Service Worker and Cache API.
+
+Ensure users can still view saved travel guides even if they lose internet connectivity.
+
+
+
+
